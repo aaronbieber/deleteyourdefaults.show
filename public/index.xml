@@ -1,83 +1,72 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bit Depth</title>
-    <link>https://bitdepth.show/</link>
-    <description>Recent content on Bit Depth</description>
+    <title>Delete Your Defaults</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Delete Your Defaults</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2024 Aaron Bieber &amp; Chris Blake</copyright>
-    <lastBuildDate>Fri, 18 Nov 2022 08:27:08 -0500</lastBuildDate><atom:link href="https://bitdepth.show/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2025 Aaron Bieber &amp; Rosa Carson</copyright>
+    <lastBuildDate>Wed, 22 Jan 2025 12:27:49 -0500</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
-      <title>BD007: How do YOU print your art? Wait, you don&#39;t?</title>
-      <link>https://bitdepth.show/episodes/bd007-how-do-you-print-your-art-wait-you-dont/</link>
-      <pubDate>Fri, 18 Nov 2022 08:27:08 -0500</pubDate>
+      <title>Unsustainable</title>
+      <link>http://localhost:1313/episodes/unsustainable/</link>
+      <pubDate>Wed, 22 Jan 2025 12:27:49 -0500</pubDate>
       
-      <guid>https://bitdepth.show/episodes/bd007-how-do-you-print-your-art-wait-you-dont/</guid>
-      <description>On trial in this episode is the spectrum of value in printing your digital works onto, you know, actual paper.
-We get into it: why don&amp;rsquo;t people do slide shows anymore?</description>
+      <guid>http://localhost:1313/episodes/unsustainable/</guid>
+      <description>&lt;p&gt;In this first episode of the new year, we explore the objective unsustainability
+of global social and economic trends and what that may mean for how to show up
+in your life &lt;em&gt;today&lt;/em&gt;.&lt;/p&gt;</description>
       
     </item>
     
     <item>
-      <title>BD006: Will AI image generation change everything?</title>
-      <link>https://bitdepth.show/episodes/bd006-will-ai-image-generation-change-everything/</link>
-      <pubDate>Sun, 06 Nov 2022 07:19:23 -0500</pubDate>
+      <title>Truth</title>
+      <link>http://localhost:1313/episodes/truth/</link>
+      <pubDate>Thu, 12 Dec 2024 12:27:15 -0500</pubDate>
       
-      <guid>https://bitdepth.show/episodes/bd006-will-ai-image-generation-change-everything/</guid>
-      <description>Tools like DALL-E 2 and Midjourney have stormed onto the scene, offering anyone (anyone!) the ability to create any image they can imagine just by describing it in words. How has this shaken the foundations of the art world and how might it impact artists of the future?</description>
-      
-    </item>
-    
-    <item>
-      <title>BD005: Should you own your tools?</title>
-      <link>https://bitdepth.show/episodes/bd005-should-you-own-your-tools/</link>
-      <pubDate>Sun, 30 Oct 2022 11:48:30 -0400</pubDate>
-      
-      <guid>https://bitdepth.show/episodes/bd005-should-you-own-your-tools/</guid>
-      <description>Adobe started shifting their software from &amp;ldquo;Creative Suite&amp;rdquo; to &amp;ldquo;Creative Cloud&amp;rdquo; in 2013, demanding monthly subscription payments instead of a one-time license cost per version. Is that OK? We talk about other situations where subscriptions have come into play and what it means for the digital artist.</description>
+      <guid>http://localhost:1313/episodes/truth/</guid>
+      <description>&lt;p&gt;What even &lt;em&gt;is&lt;/em&gt; &amp;ldquo;truth,&amp;rdquo; anyway?&lt;/p&gt;</description>
       
     </item>
     
     <item>
-      <title>BD004: How &#34;The Algorithm&#34; has changed art... And how it hasn&#39;t</title>
-      <link>https://bitdepth.show/episodes/bd004-how-the-algorithm-has-changed-art-and-how-it-hasn-t/</link>
-      <pubDate>Sun, 23 Oct 2022 11:44:25 -0400</pubDate>
+      <title>Us vs. them</title>
+      <link>http://localhost:1313/episodes/us-vs--them/</link>
+      <pubDate>Wed, 13 Nov 2024 12:25:43 -0500</pubDate>
       
-      <guid>https://bitdepth.show/episodes/bd004-how-the-algorithm-has-changed-art-and-how-it-hasn-t/</guid>
-      <description>We discuss &amp;ldquo;recommendation algorithms&amp;rdquo; and how platforms that show you what they think you want to see have influenced creators, for better and worse, and what effect it&amp;rsquo;s had on the visual arts.</description>
-      
-    </item>
-    
-    <item>
-      <title>BD003: Has the internet changed how we consume art?</title>
-      <link>https://bitdepth.show/episodes/bd003-has-the-internet-changed-how-we-consume-art/</link>
-      <pubDate>Sun, 16 Oct 2022 11:39:23 -0400</pubDate>
-      
-      <guid>https://bitdepth.show/episodes/bd003-has-the-internet-changed-how-we-consume-art/</guid>
-      <description>We discuss how internet in general, and social media platforms specifically, have changed how people consume art, and also how those trends have influenced artists to create different art. Is it good?</description>
+      <guid>http://localhost:1313/episodes/us-vs--them/</guid>
+      <description>&lt;p&gt;We humans sure do love to find new and novel ways to sow division amongst
+ourselves, don&amp;rsquo;t we? In this episode we explore our innate drive to carve
+ourselves into groups and what good it&amp;rsquo;s doing us.&lt;/p&gt;</description>
       
     </item>
     
     <item>
-      <title>BD002: What equipment do you need to create great art?</title>
-      <link>https://bitdepth.show/episodes/bd002-what-equipment-do-you-need-to-create-great-art/</link>
-      <pubDate>Sun, 09 Oct 2022 15:17:15 -0400</pubDate>
+      <title>Creative process</title>
+      <link>http://localhost:1313/episodes/creative-process/</link>
+      <pubDate>Wed, 30 Oct 2024 12:23:58 -0500</pubDate>
       
-      <guid>https://bitdepth.show/episodes/bd002-what-equipment-do-you-need-to-create-great-art/</guid>
-      <description>&amp;hellip; or how to stop worrying and just buy a Hasselblad X2D.
-We talk about the new Hasselblad 100 megapixel medium-format camera, gear acquisition syndrome (&amp;ldquo;GAS&amp;rdquo;), and what paintbrushes are made out of and why it should be weasel fur.</description>
+      <guid>http://localhost:1313/episodes/creative-process/</guid>
+      <description>&lt;p&gt;What even IS a creative process? Whether you think you know, or know you don&amp;rsquo;t
+know, join us to go deeper on what it means to create and to be creative.&lt;/p&gt;</description>
       
     </item>
     
     <item>
-      <title>BD001: The end of professional photography??</title>
-      <link>https://bitdepth.show/episodes/bd001-the-end-of-professional-photography/</link>
-      <pubDate>Sun, 02 Oct 2022 09:46:38 -0400</pubDate>
+      <title>Performance reviews</title>
+      <link>http://localhost:1313/episodes/bd001-the-end-of-professional-photography/</link>
+      <pubDate>Tue, 24 Sep 2024 09:46:38 -0400</pubDate>
       
-      <guid>https://bitdepth.show/episodes/bd001-the-end-of-professional-photography/</guid>
-      <description>We discuss the claim that AI image generation and computational photography threatens the livelihood of anyone who is paid to create photographs.
-The Fstoppers video: https://www.youtube.com/watch?v=A87UQkvGjKw DALL-E: https://openai.com/blog/dall-e/ Midjourney: https://www.</description>
+      <guid>http://localhost:1313/episodes/bd001-the-end-of-professional-photography/</guid>
+      <description>&lt;!--&lt;iframe src=&#34;https://anchor.fm/bit-depth/embed/episodes/BD001-The-End-of-Professional-Photography-e1omb19/a-a8kd5pm&#34;
+        style=&#34;width: 100%;&#34;
+        height=&#34;102px&#34;
+        frameborder=&#34;0&#34;
+        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+--&gt;
+&lt;p&gt;What good are performance reviews, anyway?&lt;/p&gt;</description>
       
     </item>
     

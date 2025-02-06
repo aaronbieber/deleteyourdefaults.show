@@ -4,27 +4,27 @@
 
 theme = "blowfish"
 
-baseURL = "https://bitdepth.show/"
+baseURL = "https://deleteyourdefaults.show/"
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true
-paginate = 20
+pagination.pagerSize = 20
 summaryLength = 30
 
 buildDrafts = false
 buildFuture = false
 
-title = "Bit Depth"
-description = "Bit Depth, a conversation about the intersection of art and technology."
+title = "Delete Your Defaults"
+description = "Delete Your Defaults, a show about becoming a more terrifying version of yourself."
 # logo = "img/logo.png"
 # copyright = "Copy, _right?_ :thinking_face:"
 
 dateFormat = "2 January 2006"
 
-[author]
-  name = "Aaron Bieber & Chris Blake"
+[params.author]
+  name = "Aaron Bieber & Rosa Carson"
   #image = "https://bitdepth.show/img/bit_depth_logo.png"
-  headline = "A conversation about art and technology"
+  headline = "A show about hacking our social autopilot."
   bio = ""
   # links = [
   #   { email = "mailto:hello@your_domain.com" },
