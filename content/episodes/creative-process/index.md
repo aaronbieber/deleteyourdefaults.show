@@ -1,8 +1,31 @@
 ---
 title: "Creative process"
-date: 2024-10-30T12:23:58-05:00
-draft: true
+date: 2025-06-19T05:58:53-04:00
 ---
 
-What even IS a creative process? Whether you think you know, or know you don't
-know, join us to go deeper on what it means to create and to be creative.
+{{< podcast "https://open.spotify.com/embed/episode/5A0AMDUDtNML9m6Z9zpf1m?utm_source=generator" >}}
+
+All humans---including you!---are creative. And we all have creative processes,
+though we aren\'t always aware of what they are.
+
+In this conversation, we explore our creative processes, and barriers and
+facilitators to creativity.
+
+We mention a bunch of people, including:
+
+* Gary Bernhardt
+  of [Destroy All Software](https://www.destroyallsoftware.com/screencasts)
+
+* I credit Maya Angelou with the quote that you should let your failures refine
+  you, not define you, but it turns out it was Max Lucado who said that.
+
+* [Atomic Habits](https://archive.org/details/atomic-habits-by-james-clear.pdf)
+  by [James Clear](https://jamesclear.com/resources)
+
+* [Louie Parkinson](https://www.youtube.com/@LouisParkinsonClimbing) also of
+  [Catalyst Climbing](https://www.youtube.com/@CatalystClimbing)
+
+* [Brene Brown](https://brenebrown.com) in reference to midlife \"unraveling\"
+
+* [adrienne maree brown](http://adriennemareebrown.net/) and her quote that,
+  \"Feeling good isn\'t frivolous; it\'s freedom.\"
