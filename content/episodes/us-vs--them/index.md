@@ -1,6 +1,10 @@
 ---
 title: "Us vs. them"
 date: 2025-04-09T06:07:56-04:00
+description: "Can we overcome our social programming to become wise? How do we engage with difference while respecting each others' humanity?"
+podcast_file: ""
+episode_image: ""
+explicit: "no"
 ---
 
 {{< podcast "https://open.spotify.com/embed/episode/46vOEQdU3rVuc3ZVmmTupx?utm_source=generator" >}}

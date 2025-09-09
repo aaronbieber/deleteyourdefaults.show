@@ -1,6 +1,10 @@
 ---
 title: "What is your life for?"
 date: 2025-06-04T06:26:51-04:00
+description: "We explore the concept of work life balance, the definition of success, and the foundational question of what is your life for?"
+podcast_file: ""
+episode_image: ""
+explicit: "no"
 ---
 
 {{< podcast "https://open.spotify.com/embed/episode/06PYcWLVFrYiq4BKBKgG3B?utm_source=generator" >}}

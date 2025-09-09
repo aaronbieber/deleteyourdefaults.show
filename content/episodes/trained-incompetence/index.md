@@ -1,6 +1,10 @@
 ---
 title: "Trained incompetence"
 date: 2025-03-26T06:00:40-04:00
+description: "What is the point of your life? How our trained incompetence serves a way of life that's not serving us."
+podcast_file: ""
+episode_image: ""
+explicit: "no"
 ---
 
 {{< podcast "https://open.spotify.com/embed/episode/2ghTSDR8G4tPIxG8ygGY3u?utm_source=generator" >}}

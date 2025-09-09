@@ -1,0 +1,172 @@
+// Custom SCSS for Delete Your Defaults
+// Using SASS variables and features for better maintainability
+
+// Color Variables
+$primary-dark: #2c3e50;
+$primary-medium: #34495e;
+$primary-light: #ecf0f1;
+$accent-blue: #3498db;
+$accent-blue-hover: #2980b9;
+$border-light: #e9ecef;
+
+// Typography Variables
+$brand-font-size: 1.5rem;
+
+// Mixins
+@mixin text-color($color) {
+  color: $color !important;
+}
+
+@mixin button-style($bg-color, $border-color, $hover-bg: null, $hover-border: null) {
+  background-color: $bg-color;
+  border-color: $border-color;
+
+  @if $hover-bg and $hover-border {
+    &:hover {
+      background-color: $hover-bg;
+      border-color: $hover-border;
+    }
+  }
+}
+
+// Base Styles
+/* Improve text contrast and readability */
+body {
+  color: $primary-dark;
+}
+
+// Layout, containers, etc.
+div.jumbotron {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+section.episode-list {
+  div.main_container {
+    background-color: #e5e8d7;
+  }
+
+  h3 a {
+    color: black;
+  }
+}
+
+div.row.hero_container {
+  border: 3px solid #0997dc;
+  margin: 20px 15px;
+  border-radius: 0.3rem;
+}
+
+// Navigation Styles
+nav.navbar.bg-light {
+  background: linear-gradient(to bottom, #5db7f0 0%, #5db7f0 2%, #2a7cb8 5%, #003d7a 8%, #0054a6 50%, #0997dc 92%, #4d84c7 95%, #316ac5 98%, #316ac5 100%) !important;
+}
+
+.navbar-brand {
+  color: white !important;
+  font-weight: bold !important;
+  font-size: $brand-font-size !important;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8) !important;
+}
+
+.navbar-nav {
+  // Hide all navigation menu links
+  display: none;
+
+  .nav-link {
+    @include text-color($primary-medium);
+
+    &:hover {
+      @include text-color($primary-dark);
+    }
+  }
+}
+
+// Typography Styles
+h1, h2, h3, h4, h5, h6 {
+  color: $primary-dark;
+}
+
+// Content Styles
+.episode_content {
+  color: $primary-medium;
+}
+
+// Sidebar Styles
+.sidebar {
+  &_content {
+    color: $primary-medium;
+  }
+
+  &_headline {
+    @include text-color($primary-dark);
+  }
+}
+
+// Link Styles
+a {
+  color: $accent-blue;
+
+  &:hover {
+    color: $accent-blue-hover;
+  }
+}
+
+// Button Styles
+.btn-primary {
+  @include button-style($accent-blue, $accent-blue, $accent-blue-hover, $accent-blue-hover);
+}
+
+// Card Styles
+.card {
+  border: 1px solid $border-light;
+
+  &-title {
+    color: $primary-dark;
+  }
+
+  &-text {
+    color: $primary-medium;
+  }
+}
+
+// Footer Styles
+.footer {
+  background-color: $primary-medium;
+  color: $primary-light;
+}
+
+// Logo Options (commented out for future use)
+// Uncomment and modify as needed:
+//
+// .navbar-brand {
+//   // Option 1: Logo + text
+//   &::before {
+//     content: "";
+//     display: inline-block;
+//     width: 40px;
+//     height: 40px;
+//     background: {
+//       image: url('/img/podcast-logo.png');
+//       size: contain;
+//       repeat: no-repeat;
+//       position: center;
+//     }
+//     margin-right: 10px;
+//     vertical-align: middle;
+//   }
+// }
+//
+// Option 2: Logo only
+// .navbar-brand {
+//   background: {
+//     image: url('/img/podcast-logo.png');
+//     size: contain;
+//     repeat: no-repeat;
+//     position: center;
+//   }
+//   width: 150px;
+//   height: 50px;
+//   text-indent: -9999px;
+//   overflow: hidden;
+// }

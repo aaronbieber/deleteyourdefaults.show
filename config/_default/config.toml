@@ -2,35 +2,64 @@
 # Refer to the theme docs for more details about each of these parameters.
 # https://nunocoracao.github.io/blowfish/docs/getting-started/
 
-theme = "blowfish"
+title = "Delete Your Defaults"
+theme = "castanet"
 
 baseURL = "https://deleteyourdefaults.show/"
 defaultContentLanguage = "en"
 
-enableRobotsTXT = true
-pagination.pagerSize = 20
-summaryLength = 30
+#enableRobotsTXT = true
+#summaryLength = 30
+
+# Only keep series taxonomy, remove default categories and tags
+[taxonomies]
+  series = "series"
+
+[pagination]
+  pagerSize = 9
 
 buildDrafts = false
 buildFuture = false
 
-title = "Delete Your Defaults"
-description = "Delete Your Defaults, a show about becoming a more terrifying version of yourself."
 # logo = "img/logo.png"
 # copyright = "Copy, _right?_ :thinking_face:"
 
 dateFormat = "2 January 2006"
 
-[params.author]
-  name = "Aaron Bieber & Rosa Carson"
-  #image = "https://bitdepth.show/img/bit_depth_logo.png"
-  headline = "A show about hacking our social autopilot."
-  bio = ""
-  # links = [
-  #   { email = "mailto:hello@your_domain.com" },
-  #   { link = "https://link-to-some-website.com/" },
-  #   { github = "https://github.com/username" },
-  # ]
+[params]
+  mainSections = "episodes"
+  copyright_notice = "Copyrighted"
+  description = """# Delete Your Defaults
+
+  ## A show about hacking our social autopilot.
+  """
+  media_prefix = "https://google.com"
+  site_layout = "row"
+  enable_jumbo = "true"
+  show_next_upcoming = "false"
+  disable_title_caps = "false"
+  site_theme = "grey"
+  about_logo = "img/podcast-logo.png"
+  favicon = "img/favicon.ico"
+  rss_subscribe = "https://anchor.fm/s/1017574b4/podcast/rss"
+
+[params.social]
+  twitter = ""
+  facebook = ""
+
+[params.feed]
+  copyright = "Don't steal"
+  itunes_author = "Aaron Bieber & Rosa Carson"
+  itunes_summary = "A show about hacking our social autopilot."
+  itunes_owner_name = "Aaron Bieber & Rosa Carson"
+  itunes_owner_email = "podcast@deleteyourdefaults.show"
+  itunes_image = "https://deleteyourdefaults.show/img/podcast-cover.png"
+  itunes_top_category = "Technology"
+
+[params.authors]
+  [params.authors.hosts]
+    name = "Aaron Bieber & Rosa Carson"
+    thumbnail = "img/podcast-cover.jpg"
 
 # googleAnalytics = "G-XXXXXXXXX"
 
@@ -39,5 +68,11 @@ dateFormat = "2 January 2006"
   filename = 'sitemap.xml'
   priority = 0.5
 
+# Custom menu configuration (overrides automatic generation)
+[[Menu.Main]]
+  name = "Episodes"  
+  identifier = "episodes"
+  url = "/"
+
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS"]

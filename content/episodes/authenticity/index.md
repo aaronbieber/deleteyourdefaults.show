@@ -1,6 +1,10 @@
 ---
 title: "Authenticity"
 date: 2025-07-30T07:25:35-04:00
+description: "People are craving authenticity more and more. We explore our own challenges to being authentically self-expressed and our experiences getting in touch with it."
+podcast_file: ""
+episode_image: ""
+explicit: "no"
 ---
 
 {{< podcast "https://open.spotify.com/embed/episode/107pjvUOViNzOBv9JKA70u?utm_source=generator" >}}
