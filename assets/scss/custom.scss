@@ -69,17 +69,24 @@ nav.navbar.bg-light {
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8) !important;
 }
 
-.navbar-nav {
-  // Hide all navigation menu links
+// Hide main navigation menu links but keep social links
+.navbar-nav.mr-auto {
   display: none;
+}
 
-  .nav-link {
-    @include text-color($primary-medium);
+// Hide hamburger menu button since there are no nav links
+.navbar-toggler {
+  display: none !important;
+}
 
-    &:hover {
-      @include text-color($primary-dark);
-    }
-  }
+// Social links styling
+.social-links {
+  color: white !important;
+}
+
+// Show email link in navbar area on small screens only
+.social-links.d-md-none {
+  margin-left: auto;
 }
 
 // Typography Styles

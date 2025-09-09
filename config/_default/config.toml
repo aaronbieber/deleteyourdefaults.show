@@ -28,10 +28,12 @@ dateFormat = "2 January 2006"
 
 [params]
   mainSections = "episodes"
-  copyright_notice = "Copyrighted"
+  copyright_notice = "Copyright (c) 2025 Aaron Bieber and Rosa Carson"
   description = """# Delete Your Defaults
 
   ## A show about hacking our social autopilot.
+
+  Get off of society's rails, and come into full contact with life.
   """
   media_prefix = "https://google.com"
   site_layout = "row"
@@ -44,8 +46,6 @@ dateFormat = "2 January 2006"
   rss_subscribe = "https://anchor.fm/s/1017574b4/podcast/rss"
 
 [params.social]
-  twitter = ""
-  facebook = ""
 
 [params.feed]
   copyright = "Don't steal"
