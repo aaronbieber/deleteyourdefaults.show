@@ -1,5 +1,6 @@
 ---
 title: "Feeling(s)"
+slug: "feelings"
 date: 2025-09-10T10:17:17-04:00
 description: "For all that we live in a world that pretends we’re rational beings
   doing rational things, feelings drive everything in our lives, or block
