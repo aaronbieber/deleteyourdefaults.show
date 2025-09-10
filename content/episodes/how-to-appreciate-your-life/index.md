@@ -1,10 +1,10 @@
 ---
 title: "How to appreciate your life"
 date: 2025-07-17T13:30:31-04:00
-description: "What does it mean to live fully? We explore the value of boredom, getting to know our neighborhoods, and the mind-bending idea that we are one with all existence."
-podcast_file: ""
-episode_image: ""
-explicit: "no"
+description: "What does it mean to live fully? We explore the value of boredom,
+  getting to know our neighborhoods, and the mind-bending idea that we are one
+  with all existence."
+explicit: "yes"
 ---
 
 {{< podcast "https://open.spotify.com/embed/episode/6pwLoKXgGJe5wKi7SRooVq?utm_source=generator" >}}

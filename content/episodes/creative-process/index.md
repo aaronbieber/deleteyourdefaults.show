@@ -1,10 +1,10 @@
 ---
 title: "Creative process"
 date: 2025-06-19T05:58:53-04:00
-description: "All humans are creative and have creative processes. We explore our own creative processes, barriers and facilitators to creativity."
-podcast_file: ""
-episode_image: ""
-explicit: "no"
+description: "All humans are creative and have creative processes. We 
+  explore our own creative processes, barriers and facilitators to 
+  creativity."
+explicit: "yes"
 ---
 
 {{< podcast "https://open.spotify.com/embed/episode/5A0AMDUDtNML9m6Z9zpf1m?utm_source=generator" >}}

@@ -51,6 +51,16 @@ section.episode-list {
   }
 }
 
+// Episode title links - make them inline instead of full width
+.row_latest_episode_title,
+.grid_episode_title {
+  display: inline-block !important;
+  
+  &:hover {
+    color: #1550d0 !important;
+  }
+}
+
 div.row.hero_container {
   border: 3px solid #0997dc;
   margin: 20px 15px;

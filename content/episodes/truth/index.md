@@ -1,10 +1,10 @@
 ---
 title: "Truth"
 date: 2025-04-23T06:00:55-04:00
-description: "This episode explores the idea of truth, whether objective truth exists, and how to relate to uncertainty. We cover ground from spirituality to politics."
-podcast_file: ""
-episode_image: ""
-explicit: "no"
+description: "This episode explores the idea of truth, whether objective truth 
+  exists, and how to relate to uncertainty. We cover ground from spirituality 
+  to politics."
+explicit: "yes"
 ---
 
 {{< podcast "https://open.spotify.com/embed/episode/3U19wjQArqxiJcoqYDGtQE?utm_source=generator" >}}
