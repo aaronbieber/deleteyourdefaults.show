@@ -57,6 +57,11 @@ div.row.hero_container {
   border-radius: 0.3rem;
 }
 
+.middle_container {
+  border: 3px solid #1550d0;
+  box-shadow: 0 0 0 1px #5db7f0;
+}
+
 // Navigation Styles
 nav.navbar.bg-light {
   background: linear-gradient(to bottom, #5db7f0 0%, #5db7f0 2%, #2a7cb8 5%, #003d7a 8%, #0054a6 50%, #0997dc 92%, #4d84c7 95%, #316ac5 98%, #316ac5 100%) !important;
