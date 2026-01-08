@@ -29,3 +29,5 @@ Resources we mention:
 
 -   [**Joe Hudson**](https://www.artofaccomplishment.com/)---referenced for his
     approach to truth, grief, and relational integrity
+
+{{< transcript "https://docs.google.com/document/d/1SAyFS97oBzyM2p0l5BFpOjyRGIkV-VLorC1LRKrxgHI/edit?usp=sharing" >}}
