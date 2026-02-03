@@ -1,5 +1,5 @@
 ---
-title: "What is your life for?"
+title: "What Is Your Life For?"
 date: 2025-06-04T06:26:51-04:00
 description: "We explore the concept of work life balance, the 
   definition of success, and the foundational question of what 
@@ -32,3 +32,5 @@ by Donald Shoup
 
 * The Daily Stoic [Stoic Wisdom For Everyday Life](https://dailystoic.com/) by
   Ryan Holiday
+
+{{< transcript "https://docs.google.com/document/d/1yb1zq9JV1KCmlT9RTLCI3L_R9e7TkTN5Bs-M87f7wqg/edit?usp=drive_link" >}}

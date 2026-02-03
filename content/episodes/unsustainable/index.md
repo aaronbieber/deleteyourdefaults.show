@@ -29,3 +29,5 @@ Favorite charities mentioned:
 * [Electronic Frontier Foundation](https://www.eff.org/)
 * [Parking Reform Network](https://parkingreform.org/)
 * [America Walks](https://americawalks.org/)
+
+{{< transcript "https://docs.google.com/document/d/1b4vj0UwO8YZqKJWMdahkLs9LLoZxewnrAsrCYhI6zq0/edit?usp=drive_link" >}}

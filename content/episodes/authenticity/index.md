@@ -24,3 +24,5 @@ Doctor Rachel Zoffness, who was featured on the
 
 Rosa's membership
 program [Befriend Your Body](https://www.therosatechnique.com/membership).
+
+{{< transcript "https://docs.google.com/document/d/1ZYnF01qBsDRibQXIbLKGGFrTVKsAHtUdwrAK15B7yJg/edit?usp=drive_link" >}}

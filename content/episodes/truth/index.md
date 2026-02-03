@@ -26,3 +26,5 @@ by Dave Gray
 
 [The Dawn Wall](https://www.imdb.com/title/tt7286916/) (movie) and
 [Free Solo](https://www.imdb.com/title/tt7775622/?ref_=fn_all_ttl_1) (movie)
+
+{{< transcript "https://docs.google.com/document/d/1joaNvjhQCPxZeB1Iszf8PdbK026RyFXbtzGo4NXdqTU/edit?usp=drive_link" >}}

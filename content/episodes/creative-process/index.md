@@ -1,5 +1,5 @@
 ---
-title: "Creative process"
+title: "Creative Process"
 date: 2025-06-19T05:58:53-04:00
 description: "All humans are creative and have creative processes. We 
   explore our own creative processes, barriers and facilitators to 
@@ -33,3 +33,5 @@ We mention a bunch of people, including:
 
 * [adrienne maree brown](http://adriennemareebrown.net/) and her quote that,
   \"Feeling good isn\'t frivolous; it\'s freedom.\"
+
+{{< transcript "https://docs.google.com/document/d/1AxdztMDCMO8bOZwq_SVFo3MpRedna5_gE4AQcfD3zqk/edit?usp=drive_link" >}}

@@ -1,5 +1,5 @@
 ---
-title: "Be kind but not nice"
+title: "Be Kind Not Nice"
 date: 2025-07-02T10:21:58-05:00
 description: "In this episode, we explore what it really means to be kind, the cost of being nice, what it means to be real, and what’s the deal with so much fakeness these days?"
 ---
@@ -38,3 +38,5 @@ Find this and all of our episodes
 on [deleteyourdefaults.show](https://deleteyourdefaults.show), or anywhere you
 get your podcasts. If you’re listening on Apple Podcasts or Spotify, consider
 giving us a five-star review; it helps us find other listeners like you.
+
+{{< transcript "https://docs.google.com/document/d/1MXz8HoC_PBaVl6CIBOdUutUBR9Y7Q1TpB991fxfeBzw/edit?usp=drive_link" >}}

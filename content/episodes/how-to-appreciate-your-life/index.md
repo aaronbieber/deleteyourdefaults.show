@@ -1,5 +1,5 @@
 ---
-title: "How to appreciate your life"
+title: "How to Appreciate Your Life"
 date: 2025-07-17T13:30:31-04:00
 description: "What does it mean to live fully? We explore the value of boredom,
   getting to know our neighborhoods, and the mind-bending idea that we are one
@@ -19,3 +19,5 @@ the simple yet mind-bending idea that we are one with all of existence.
 
 We refer repeatedly to Alan Watts, including 
 [The Book, which is available as a downloadable pdf](https://www.freespiritualebooks.com/the-book.html).
+
+{{< transcript "https://docs.google.com/document/d/1CNHE6rglk_XuCfVzrm-2UcOx7a5bW9xPEHMKMpNUP_4/edit?usp=drive_link" >}}
