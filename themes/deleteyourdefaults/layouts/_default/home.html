@@ -39,9 +39,9 @@
               </time>
               <h3 class="episode-card__title">{{ .Title }}</h3>
               {{ with .Description }}
-                <p class="episode-card__desc">{{ . }}</p>
+                <div class="episode-card__desc">{{ . | markdownify }}</div>
               {{ else }}
-                <p class="episode-card__desc">{{ .Summary | plainify | truncate 150 }}</p>
+                <p class="episode-card__desc episode-card__desc--truncated">{{ .Summary | plainify | truncate 150 }}</p>
               {{ end }}
             </div>
           </a>

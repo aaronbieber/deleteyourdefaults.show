@@ -1,6 +1,7 @@
 ---
 title: "Doubt"
 date: 2026-02-04T14:12:32-05:00
+description: "Doubt isn’t evidence that something is wrong with you; it’s often a sign that you’re standing at the edge of growth, exposure, and transformation."
 ---
 
 {{< podcast "https://open.spotify.com/embed/episode/6u9Fu3kqbXxHvjaH5MPn6J" >}}

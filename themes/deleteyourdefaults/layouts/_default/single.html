@@ -6,7 +6,7 @@
       </time>
       <h1 class="episode-header__title">{{ .Title }}</h1>
       {{ with .Description }}
-        <p class="episode-header__desc">{{ . }}</p>
+        <div class="episode-header__desc">{{ . | markdownify }}</div>
       {{ end }}
     </div>
   </div>
