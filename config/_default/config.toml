@@ -3,7 +3,7 @@
 # https://nunocoracao.github.io/blowfish/docs/getting-started/
 
 title = "Delete Your Defaults"
-theme = "castanet"
+theme = "deleteyourdefaults"
 
 baseURL = "https://deleteyourdefaults.show/"
 defaultContentLanguage = "en"

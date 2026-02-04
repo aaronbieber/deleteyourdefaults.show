@@ -1,0 +1,21 @@
+{{ define "main" }}
+  <div class="episode-header">
+    <div class="container">
+      <time class="episode-header__date" datetime="{{ .Date.Format "2006-01-02" }}">
+        {{ .Date.Format "January 2, 2006" }}
+      </time>
+      <h1 class="episode-header__title">{{ .Title }}</h1>
+      {{ with .Description }}
+        <p class="episode-header__desc">{{ . }}</p>
+      {{ end }}
+    </div>
+  </div>
+
+  <div class="episode-content">
+    <div class="container episode-content__inner">
+      <div class="prose">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+{{ end }}

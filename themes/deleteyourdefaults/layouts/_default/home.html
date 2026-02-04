@@ -1,0 +1,97 @@
+{{ define "main" }}
+  {{/* -- Hero Section -- */}}
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__cover">
+        {{ $cover := site.Params.authors.hosts.thumbnail | default "img/podcast-cover.jpg" }}
+        <img src="{{ $cover | relURL }}" alt="{{ site.Title }} cover art">
+      </div>
+      <div class="hero__content">
+        <h1 class="hero__title">{{ site.Title }}</h1>
+        <p class="hero__tagline">A show about hacking our social autopilot.</p>
+        <p class="hero__hosts">With <strong>{{ site.Params.feed.itunes_author | default "Aaron Bieber &amp; Rosa Carson" }}</strong></p>
+        <div class="hero__actions">
+          <a href="{{ "episodes/" | relURL }}" class="btn btn--primary">Browse Episodes</a>
+          <a href="{{ "work-with-us/" | relURL }}" class="btn btn--outline">Work with Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {{/* -- Latest Episodes -- */}}
+  <section class="section" id="episodes">
+    <div class="container">
+      <div class="section__header">
+        <h2 class="section__title">Latest Episodes</h2>
+        <a href="{{ "episodes/" | relURL }}" class="section__link">All Episodes &rarr;</a>
+      </div>
+
+      {{ $episodes := where site.RegularPages "Section" "episodes" }}
+      {{ $episodes = $episodes.ByDate.Reverse }}
+
+      <div class="episode-grid">
+        {{ range first 9 $episodes }}
+          <a href="{{ .RelPermalink }}" class="episode-card">
+            <div class="episode-card__accent"></div>
+            <div class="episode-card__body">
+              <time class="episode-card__date" datetime="{{ .Date.Format "2006-01-02" }}">
+                {{ .Date.Format "January 2, 2006" }}
+              </time>
+              <h3 class="episode-card__title">{{ .Title }}</h3>
+              {{ with .Description }}
+                <p class="episode-card__desc">{{ . }}</p>
+              {{ else }}
+                <p class="episode-card__desc">{{ .Summary | plainify | truncate 150 }}</p>
+              {{ end }}
+            </div>
+          </a>
+        {{ end }}
+      </div>
+
+      {{ if gt (len $episodes) 9 }}
+        <div style="text-align: center; margin-top: 2rem;">
+          <a href="{{ "episodes/" | relURL }}" class="btn btn--outline">All Episodes</a>
+        </div>
+      {{ end }}
+    </div>
+  </section>
+
+  {{/* -- Latest Articles -- */}}
+  {{ $articles := where site.RegularPages "Section" "articles" }}
+  {{ $articles = $articles.ByDate.Reverse }}
+  {{ if $articles }}
+    <section class="section section--alt">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Latest Articles</h2>
+          <a href="{{ "articles/" | relURL }}" class="section__link">All Articles &rarr;</a>
+        </div>
+
+        <div class="post-list">
+          {{ range first 3 $articles }}
+            <a href="{{ .RelPermalink }}" class="post-card">
+              <div class="post-card__body">
+                <time class="post-card__date" datetime="{{ .Date.Format "2006-01-02" }}">
+                  {{ .Date.Format "January 2, 2006" }}
+                </time>
+                <h2 class="post-card__title">{{ .Title }}</h2>
+                {{ with .Description }}
+                  <p class="post-card__desc">{{ . }}</p>
+                {{ else }}
+                  <p class="post-card__desc">{{ .Summary | plainify | truncate 200 }}</p>
+                {{ end }}
+                <div class="post-card__meta">
+                  <span>{{ .ReadingTime }} min read</span>
+                </div>
+              </div>
+            </a>
+          {{ end }}
+        </div>
+
+        <div style="text-align: center; margin-top: 2rem;">
+          <a href="{{ "articles/" | relURL }}" class="btn btn--outline">All Articles</a>
+        </div>
+      </div>
+    </section>
+  {{ end }}
+{{ end }}

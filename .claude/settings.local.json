@@ -4,7 +4,12 @@
       "WebFetch(domain:github.com)",
       "Bash(hugo:*)",
       "Bash(grep:*)",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "Bash(xargs ls:*)",
+      "WebFetch(domain:aaronbieber.coach)",
+      "WebFetch(domain:www.therosatechnique.com)",
+      "WebSearch",
+      "WebFetch(domain:www.alignable.com)"
     ],
     "deny": [],
     "ask": []

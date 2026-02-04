@@ -1,0 +1,10 @@
+<div class="container site-footer__inner">
+  <p class="site-footer__copy">
+    {{ with site.Params.copyright_notice }}{{ . }}{{ else }}&copy; {{ now.Year }} {{ site.Title }}{{ end }}
+  </p>
+  {{ with site.Params.rss_subscribe }}
+    <ul class="site-footer__links">
+      <li><a href="{{ . }}" target="_blank" rel="noopener">RSS Feed</a></li>
+    </ul>
+  {{ end }}
+</div>

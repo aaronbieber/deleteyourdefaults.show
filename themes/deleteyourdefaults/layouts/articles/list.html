@@ -1,0 +1,41 @@
+{{ define "main" }}
+  <div class="list-header">
+    <div class="container">
+      <h1 class="list-header__title">{{ .Title }}</h1>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      {{ .Content }}
+
+      {{ $posts := .Pages.ByDate.Reverse }}
+      {{ if $posts }}
+        <div class="post-list">
+          {{ range $posts }}
+            <a href="{{ .RelPermalink }}" class="post-card">
+              <div class="post-card__body">
+                <time class="post-card__date" datetime="{{ .Date.Format "2006-01-02" }}">
+                  {{ .Date.Format "January 2, 2006" }}
+                </time>
+                <h2 class="post-card__title">{{ .Title }}</h2>
+                {{ with .Description }}
+                  <p class="post-card__desc">{{ . }}</p>
+                {{ else }}
+                  <p class="post-card__desc">{{ .Summary | plainify | truncate 200 }}</p>
+                {{ end }}
+                <div class="post-card__meta">
+                  <span>{{ .ReadingTime }} min read</span>
+                </div>
+              </div>
+            </a>
+          {{ end }}
+        </div>
+      {{ else }}
+        <p class="post-list__empty">No posts yet. Check back soon.</p>
+      {{ end }}
+
+      {{ template "_internal/pagination.html" . }}
+    </div>
+  </section>
+{{ end }}

@@ -1,0 +1,1035 @@
+/* ==========================================================================
+   Delete Your Defaults Theme
+   A modern layout with a playful Windows XP color palette
+   ========================================================================== */
+
+/* -- XP-Inspired Color Palette -- */
+:root {
+  --xp-blue: #235EDB;
+  --xp-blue-light: #4E98FE;
+  --xp-blue-hover: #1a4ab0;
+  --xp-sky: #78B4E8;
+  --xp-sky-light: #d9ecfa;
+  --xp-green: #6BBE45;
+  --xp-green-dark: #3C8C2E;
+  --xp-cream: #ECE9D8;
+  --xp-silver: #D6D2C2;
+  --xp-white: #FFFFFF;
+  --xp-text: #1e1e1e;
+  --xp-text-muted: #5c5c5c;
+  --xp-text-light: #8a8a8a;
+  --xp-border: #e0ddd0;
+  --xp-shadow: rgba(36, 94, 220, 0.08);
+
+  --max-width: 1120px;
+  --content-width: 760px;
+  --radius: 6px;
+  --radius-lg: 10px;
+  --transition: 0.2s ease;
+}
+
+/* -- Reset & Base -- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    sans-serif;
+  color: var(--xp-text);
+  background: var(--xp-white);
+  line-height: 1.7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: var(--xp-blue);
+  text-decoration: none;
+  transition: color var(--transition);
+}
+
+a:hover {
+  color: var(--xp-blue-hover);
+}
+
+/* -- Typography -- */
+h1, h2, h3, h4 {
+  line-height: 1.25;
+  font-weight: 700;
+  color: var(--xp-text);
+}
+
+h1 { font-size: 2.25rem; }
+h2 { font-size: 1.625rem; }
+h3 { font-size: 1.25rem; }
+h4 { font-size: 1.1rem; }
+
+/* -- Layout Container -- */
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.container--narrow {
+  max-width: var(--content-width);
+}
+
+/* ==========================================================================
+   Site Header: XP Title Bar + Menu Bar
+   ========================================================================== */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+}
+
+/* -- Title Bar (the blue window chrome strip) -- */
+.titlebar {
+  background: linear-gradient(180deg, #0a246a 0%, #3a6ea5 3%, #4e98fe 10%, #235edb 50%, #1b4ab0 90%, #0a246a 100%);
+  padding: 0;
+  height: 44px;
+}
+
+.titlebar__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.titlebar__brand {
+  color: var(--xp-white);
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  letter-spacing: 0.01em;
+}
+
+.titlebar__brand:hover {
+  color: var(--xp-white);
+}
+
+/* Favicon in title bar */
+.titlebar__controls {
+  display: flex;
+  align-items: center;
+}
+
+.titlebar__favicon {
+  width: 22px;
+  height: 22px;
+  display: block;
+}
+
+/* -- Menu Bar (the silver toolbar beneath the title bar) -- */
+.menubar {
+  background: var(--xp-cream);
+  background: linear-gradient(180deg, #f6f3ea 0%, #ece9d8 40%, #dedad0 100%);
+  border-bottom: 1px solid var(--xp-silver);
+  padding: 0;
+  height: 28px;
+}
+
+.menubar__inner {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+/* Navigation */
+.site-nav {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.site-nav ul {
+  list-style: none;
+  display: flex;
+  height: 100%;
+}
+
+.site-nav li {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.site-nav a {
+  color: var(--xp-text);
+  font-size: 0.8rem;
+  font-weight: 400;
+  padding: 0 0.65rem;
+  transition: all var(--transition);
+  display: flex;
+  align-items: center;
+  height: 100%;
+  text-decoration: none;
+  border: 1px solid transparent;
+}
+
+.site-nav a:hover,
+.site-nav a.active {
+  background: linear-gradient(180deg, #4e98fe 0%, #235edb 100%);
+  color: var(--xp-white);
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+/* Mobile menu toggle */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--xp-text);
+  font-size: 0.85rem;
+  font-weight: 400;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  line-height: 1;
+}
+
+/* ==========================================================================
+   Homepage Hero
+   ========================================================================== */
+.hero {
+  background: linear-gradient(165deg, var(--xp-sky-light) 0%, var(--xp-cream) 50%, #f0eee0 100%);
+  padding: 4rem 0;
+  border-bottom: 3px solid var(--xp-blue);
+}
+
+.hero__inner {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.hero__cover {
+  flex-shrink: 0;
+  width: 220px;
+  height: 220px;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow:
+    0 4px 24px rgba(0, 0, 0, 0.12),
+    0 0 0 3px var(--xp-blue),
+    0 0 0 6px rgba(36, 94, 220, 0.15);
+}
+
+.hero__cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero__content {
+  flex: 1;
+}
+
+.hero__title {
+  font-size: 2.75rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(135deg, var(--xp-blue) 0%, var(--xp-blue-light) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero__tagline {
+  font-size: 1.2rem;
+  color: var(--xp-text-muted);
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.hero__hosts {
+  font-size: 0.95rem;
+  color: var(--xp-text-light);
+}
+
+.hero__hosts strong {
+  color: var(--xp-text-muted);
+}
+
+.hero__actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.6rem 1.25rem;
+  border-radius: var(--radius);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all var(--transition);
+  border: none;
+  cursor: pointer;
+}
+
+.btn--primary {
+  background: var(--xp-green);
+  color: var(--xp-white);
+}
+
+.btn--primary:hover {
+  background: var(--xp-green-dark);
+  color: var(--xp-white);
+}
+
+.btn--outline {
+  background: transparent;
+  color: var(--xp-blue);
+  border: 2px solid var(--xp-blue);
+}
+
+.btn--outline:hover {
+  background: var(--xp-blue);
+  color: var(--xp-white);
+}
+
+/* ==========================================================================
+   Section Headings
+   ========================================================================== */
+.section {
+  padding: 3rem 0;
+  background: #f9f8f5;
+}
+
+.section--alt {
+  background: #f5f3ec;
+}
+
+.section__header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.section__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  position: relative;
+  padding-left: 1rem;
+}
+
+.section__title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.15em;
+  bottom: 0.15em;
+  width: 4px;
+  background: var(--xp-green);
+  border-radius: 2px;
+}
+
+.section__link {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* ==========================================================================
+   Episode Cards (Grid)
+   ========================================================================== */
+.episode-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
+
+.episode-card {
+  background: var(--xp-white);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--xp-border);
+  overflow: hidden;
+  transition: all var(--transition);
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.episode-card:hover {
+  border-color: var(--xp-sky);
+  box-shadow: 0 4px 20px var(--xp-shadow);
+  transform: translateY(-2px);
+  color: inherit;
+}
+
+/* XP "window" accent: thin colored bar at top */
+.episode-card__accent {
+  height: 3px;
+  background: linear-gradient(90deg, var(--xp-blue) 0%, var(--xp-blue-light) 100%);
+}
+
+.episode-card__body {
+  padding: 1.25rem 1.5rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.episode-card__date {
+  font-size: 0.8rem;
+  color: var(--xp-text-light);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.5rem;
+}
+
+.episode-card__title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+  line-height: 1.3;
+}
+
+.episode-card:hover .episode-card__title {
+  color: var(--xp-blue);
+}
+
+.episode-card__desc {
+  font-size: 0.9rem;
+  color: var(--xp-text-muted);
+  line-height: 1.6;
+  flex: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ==========================================================================
+   Episode Single Page
+   ========================================================================== */
+.episode-header {
+  background: linear-gradient(165deg, var(--xp-sky-light) 0%, var(--xp-cream) 100%);
+  padding: 3rem 0;
+  border-bottom: 3px solid var(--xp-blue);
+}
+
+.episode-header__date {
+  font-size: 0.85rem;
+  color: var(--xp-text-light);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.75rem;
+}
+
+.episode-header__title {
+  font-size: 2.25rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.75rem;
+}
+
+.episode-header__desc {
+  font-size: 1.1rem;
+  color: var(--xp-text-muted);
+  line-height: 1.6;
+  max-width: 640px;
+}
+
+.episode-content {
+  padding: 2.5rem 0 4rem;
+}
+
+.episode-content__inner {
+  max-width: var(--content-width);
+  margin: 0 auto;
+}
+
+/* Prose styling for episode/post content */
+.prose h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--xp-cream);
+}
+
+.prose h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.prose p {
+  margin-bottom: 1.25rem;
+}
+
+.prose ul,
+.prose ol {
+  margin-bottom: 1.25rem;
+  padding-left: 1.5rem;
+}
+
+.prose li {
+  margin-bottom: 0.35rem;
+}
+
+.prose blockquote {
+  border-left: 4px solid var(--xp-green);
+  margin: 1.5rem 0;
+  padding: 0.75rem 1.25rem;
+  background: var(--xp-cream);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  color: var(--xp-text-muted);
+}
+
+.prose blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+.prose a {
+  text-decoration: underline;
+  text-decoration-color: var(--xp-sky);
+  text-underline-offset: 2px;
+}
+
+.prose a:hover {
+  text-decoration-color: var(--xp-blue);
+}
+
+.prose strong {
+  font-weight: 600;
+}
+
+.prose em {
+  font-style: italic;
+}
+
+.prose hr {
+  border: none;
+  border-top: 2px solid var(--xp-cream);
+  margin: 2rem 0;
+}
+
+.prose code {
+  background: var(--xp-cream);
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.prose pre {
+  background: #2d2d2d;
+  color: #f8f8f2;
+  padding: 1.25rem;
+  border-radius: var(--radius);
+  overflow-x: auto;
+  margin-bottom: 1.25rem;
+}
+
+.prose pre code {
+  background: none;
+  padding: 0;
+  border-radius: 0;
+  font-size: 0.875rem;
+}
+
+/* ==========================================================================
+   Podcast Shortcode (Spotify Embed)
+   ========================================================================== */
+.prose iframe {
+  display: block;
+  margin: 2rem 0 2.5rem;
+}
+
+/* ==========================================================================
+   Transcript Shortcode
+   ========================================================================== */
+.transcript-block {
+  margin: 2.5rem 0;
+  padding: 1.25rem 1.5rem;
+  background: var(--xp-cream);
+  border-radius: var(--radius);
+  border-left: 4px solid var(--xp-blue);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: all var(--transition);
+}
+
+.transcript-block:hover {
+  background: var(--xp-sky-light);
+}
+
+.transcript-block a {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: var(--xp-blue);
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.transcript-block a:hover {
+  color: var(--xp-blue-hover);
+}
+
+.transcript-block i {
+  font-size: 1.5rem;
+  color: var(--xp-blue-light);
+}
+
+/* ==========================================================================
+   Episode Navigation (Prev/Next)
+   ========================================================================== */
+.episode-nav {
+  border-top: 2px solid var(--xp-cream);
+  padding: 2rem 0;
+  margin-top: 2rem;
+}
+
+.episode-nav__inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.episode-nav__link {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  max-width: 45%;
+}
+
+.episode-nav__link--next {
+  text-align: right;
+  margin-left: auto;
+}
+
+.episode-nav__label {
+  font-size: 0.8rem;
+  color: var(--xp-text-light);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.episode-nav__title {
+  font-weight: 600;
+  color: var(--xp-blue);
+}
+
+.episode-nav__link:hover .episode-nav__title {
+  color: var(--xp-blue-hover);
+}
+
+/* ==========================================================================
+   List Page
+   ========================================================================== */
+.list-header {
+  background: linear-gradient(165deg, var(--xp-sky-light) 0%, var(--xp-cream) 100%);
+  padding: 2.5rem 0;
+  border-bottom: 3px solid var(--xp-blue);
+}
+
+.list-header__title {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+/* ==========================================================================
+   Site Footer
+   ========================================================================== */
+.site-footer {
+  background: var(--xp-cream);
+  border-top: 3px solid var(--xp-border);
+  padding: 2rem 0;
+  margin-top: auto;
+}
+
+.site-footer__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.site-footer__copy {
+  font-size: 0.85rem;
+  color: var(--xp-text-muted);
+}
+
+.site-footer__links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.site-footer__links a {
+  font-size: 0.85rem;
+  color: var(--xp-text-muted);
+}
+
+.site-footer__links a:hover {
+  color: var(--xp-blue);
+}
+
+/* ==========================================================================
+   Pagination (Hugo internal template)
+   ========================================================================== */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 2.5rem;
+  list-style: none;
+  padding: 0;
+}
+
+.page-item {
+  list-style: none;
+}
+
+.page-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.25rem;
+  height: 2.25rem;
+  padding: 0 0.4rem;
+  border-radius: var(--radius);
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--xp-text-muted);
+  border: 1px solid var(--xp-border);
+  transition: all var(--transition);
+  text-decoration: none;
+}
+
+.page-link:hover {
+  border-color: var(--xp-blue);
+  color: var(--xp-blue);
+  background: var(--xp-sky-light);
+}
+
+.page-item.active .page-link {
+  background: var(--xp-blue);
+  color: var(--xp-white);
+  border-color: var(--xp-blue);
+}
+
+.page-item.disabled .page-link {
+  color: var(--xp-text-light);
+  border-color: var(--xp-border);
+  opacity: 0.5;
+  cursor: default;
+}
+
+.page-item.disabled .page-link:hover {
+  background: transparent;
+  color: var(--xp-text-light);
+  border-color: var(--xp-border);
+}
+
+/* ==========================================================================
+   Blog Posts
+   ========================================================================== */
+
+/* Post list (vertical stack layout) */
+.post-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.post-list__empty {
+  color: var(--xp-text-muted);
+  font-style: italic;
+  padding: 2rem 0;
+}
+
+.post-card {
+  background: var(--xp-white);
+  border: 1px solid var(--xp-border);
+  border-radius: var(--radius-lg);
+  transition: all var(--transition);
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  display: block;
+}
+
+.post-card:hover {
+  border-color: var(--xp-sky);
+  box-shadow: 0 4px 20px var(--xp-shadow);
+}
+
+.post-card__body {
+  padding: 1.25rem 1.5rem;
+}
+
+.post-card__date {
+  font-size: 0.8rem;
+  color: var(--xp-text-light);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.post-card__title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0.3rem 0 0.5rem;
+  line-height: 1.3;
+}
+
+.post-card:hover .post-card__title {
+  color: var(--xp-blue);
+}
+
+.post-card__desc {
+  font-size: 0.9rem;
+  color: var(--xp-text-muted);
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
+}
+
+.post-card__meta {
+  font-size: 0.8rem;
+  color: var(--xp-text-light);
+  display: flex;
+  gap: 0.5rem;
+}
+
+/* Post single page header */
+.post-header {
+  background: linear-gradient(165deg, var(--xp-cream) 0%, #f6f3ea 100%);
+  padding: 3rem 0;
+  border-bottom: 3px solid var(--xp-green);
+}
+
+.post-header__date {
+  font-size: 0.85rem;
+  color: var(--xp-text-light);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.75rem;
+}
+
+.post-header__title {
+  font-size: 2.25rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.75rem;
+}
+
+.post-header__desc {
+  font-size: 1.1rem;
+  color: var(--xp-text-muted);
+  line-height: 1.6;
+  max-width: 640px;
+  margin-bottom: 0.75rem;
+}
+
+.post-header__meta {
+  font-size: 0.85rem;
+  color: var(--xp-text-light);
+  display: flex;
+  gap: 0.5rem;
+}
+
+/* Post content area */
+.post-content {
+  padding: 2.5rem 0 4rem;
+}
+
+.post-content__inner {
+  max-width: var(--content-width);
+  margin: 0 auto;
+}
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+@media (max-width: 768px) {
+  :root {
+    --max-width: 100%;
+  }
+
+  /* Header */
+  .menu-toggle {
+    display: block;
+  }
+
+  .menubar {
+    height: auto;
+    min-height: 28px;
+    position: relative;
+  }
+
+  .site-nav {
+    display: none;
+    position: absolute;
+    top: 28px;
+    left: 0;
+    right: 0;
+    background: var(--xp-cream);
+    border: 1px solid var(--xp-silver);
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+    z-index: 200;
+    height: auto;
+  }
+
+  .site-nav.open {
+    display: block;
+  }
+
+  .site-nav ul {
+    flex-direction: column;
+  }
+
+  .site-nav li {
+    height: auto;
+  }
+
+  .site-nav a {
+    padding: 0.5rem 1rem;
+    height: auto;
+  }
+
+  /* Hero */
+  .hero {
+    padding: 2.5rem 0;
+  }
+
+  .hero__inner {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+  }
+
+  .hero__cover {
+    width: 160px;
+    height: 160px;
+  }
+
+  .hero__title {
+    font-size: 2rem;
+  }
+
+  .hero__tagline {
+    font-size: 1.05rem;
+  }
+
+  .hero__actions {
+    justify-content: center;
+  }
+
+  /* Grid */
+  .episode-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  /* Episode Single */
+  .episode-header {
+    padding: 2rem 0;
+  }
+
+  .episode-header__title {
+    font-size: 1.75rem;
+  }
+
+  .episode-content {
+    padding: 2rem 0 3rem;
+  }
+
+  /* Nav */
+  .episode-nav__inner {
+    flex-direction: column;
+  }
+
+  .episode-nav__link {
+    max-width: 100%;
+  }
+
+  .episode-nav__link--next {
+    text-align: left;
+  }
+
+  /* Post Single */
+  .post-header {
+    padding: 2rem 0;
+  }
+
+  .post-header__title {
+    font-size: 1.75rem;
+  }
+
+  .post-content {
+    padding: 2rem 0 3rem;
+  }
+
+  /* Section */
+  .section {
+    padding: 2rem 0;
+  }
+
+  /* Footer */
+  .site-footer__inner {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero__cover {
+    width: 130px;
+    height: 130px;
+  }
+
+  .hero__title {
+    font-size: 1.625rem;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  .episode-header__title,
+  .post-header__title {
+    font-size: 1.5rem;
+  }
+}

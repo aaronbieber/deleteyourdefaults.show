@@ -1,0 +1,47 @@
+{{ define "main" }}
+  {{/* -- Episode Header -- */}}
+  <div class="episode-header">
+    <div class="container">
+      <time class="episode-header__date" datetime="{{ .Date.Format "2006-01-02" }}">
+        {{ .Date.Format "January 2, 2006" }}
+      </time>
+      <h1 class="episode-header__title">{{ .Title }}</h1>
+      {{ with .Description }}
+        <p class="episode-header__desc">{{ . }}</p>
+      {{ end }}
+    </div>
+  </div>
+
+  {{/* -- Episode Content -- */}}
+  <div class="episode-content">
+    <div class="container episode-content__inner">
+      <div class="prose">
+        {{ .Content }}
+      </div>
+
+      {{/* -- Prev / Next Navigation -- */}}
+      {{ $pages := where site.RegularPages "Section" "episodes" }}
+      {{ $pages = $pages.ByDate.Reverse }}
+      {{ $prev := .PrevInSection }}
+      {{ $next := .NextInSection }}
+      {{ if or $prev $next }}
+        <nav class="episode-nav">
+          <div class="episode-nav__inner">
+            {{ with $next }}
+              <a href="{{ .RelPermalink }}" class="episode-nav__link">
+                <span class="episode-nav__label">&larr; Newer</span>
+                <span class="episode-nav__title">{{ .Title }}</span>
+              </a>
+            {{ end }}
+            {{ with $prev }}
+              <a href="{{ .RelPermalink }}" class="episode-nav__link episode-nav__link--next">
+                <span class="episode-nav__label">Older &rarr;</span>
+                <span class="episode-nav__title">{{ .Title }}</span>
+              </a>
+            {{ end }}
+          </div>
+        </nav>
+      {{ end }}
+    </div>
+  </div>
+{{ end }}

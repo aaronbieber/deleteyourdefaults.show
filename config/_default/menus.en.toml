@@ -11,19 +11,34 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[main]]
   name = "Episodes"
   pageRef = "episodes"
   weight = 10
 
 [[main]]
-  name = "Categories"
-  pageRef = "categories"
+  name = "Articles"
+  pageRef = "articles"
   weight = 20
 
 [[main]]
-  name = "Tags"
-  pageRef = "tags"
-  weight = 30
+  name = "Contact"
+  url = "mailto:deleteyourdefaults@gmail.com"
+  weight = 90
+
+# [[main]]
+#   name = "Categories"
+#   pageRef = "categories"
+#   weight = 20
+
+# [[main]]
+#   name = "Tags"
+#   pageRef = "tags"
+#   weight = 30
 
 
 # -- Footer Menu --
@@ -31,12 +46,12 @@
 # the copyright notice. Configure as per the main menu above.
 
 
- [[footer]]
-   name = "Tags"
-   pageRef = "tags"
-   weight = 10
+# [[footer]]
+#   name = "Tags"
+#   pageRef = "tags"
+#   weight = 10
 
- [[footer]]
-   name = "Categories"
-   pageRef = "categories"
-   weight = 20
+# [[footer]]
+#   name = "Categories"
+#   pageRef = "categories"
+#   weight = 20

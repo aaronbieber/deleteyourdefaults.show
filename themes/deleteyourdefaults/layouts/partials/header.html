@@ -1,0 +1,31 @@
+{{/* -- XP-style title bar + menu bar -- */}}
+<div class="titlebar">
+  <div class="container titlebar__inner">
+    <a href="{{ "/" | relURL }}" class="titlebar__brand">
+      {{ site.Title }}
+    </a>
+    <div class="titlebar__controls">
+      <img src="/favicon-32x32.png" alt="" class="titlebar__favicon">
+    </div>
+  </div>
+</div>
+<div class="menubar">
+  <div class="container menubar__inner">
+    <button class="menu-toggle" aria-label="Toggle menu" onclick="document.querySelector('.site-nav').classList.toggle('open')">
+      &#9776; Menu
+    </button>
+    <nav class="site-nav">
+      {{ with site.Menus.main }}
+        <ul>
+          {{ range . }}
+            <li>
+              <a href="{{ .URL }}"{{ if $.IsMenuCurrent "main" . }} class="active" aria-current="page"{{ end }}{{ if strings.HasPrefix .URL "mailto:" }} target="_blank" rel="noopener"{{ end }}>
+                {{ .Name }}
+              </a>
+            </li>
+          {{ end }}
+        </ul>
+      {{ end }}
+    </nav>
+  </div>
+</div>
