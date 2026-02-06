@@ -1,9 +1,9 @@
 ---
 title: "Creative Process"
 date: 2025-06-19T05:58:53-04:00
-description: "All humans are creative and have creative processes. We 
-  explore our own creative processes, barriers and facilitators to 
-  creativity."
+description: >
+    All humans are creative and have creative processes. We explore our own
+    creative processes, barriers and facilitators to creativity.
 explicit: "yes"
 ---
 

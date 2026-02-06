@@ -1,9 +1,11 @@
 ---
 title: "Authenticity"
 date: 2025-07-30T07:25:35-04:00
-description: "People are craving authenticity more and more---both expressing it and being
-  around others who are embodying it. We explore our own challenges to being
-  authentically self-expressed and our experiences getting in touch with it."
+description: >
+    People are craving authenticity more and more---both expressing it and
+    being around others who are embodying it. We explore our own challenges to
+    being authentically self-expressed and our experiences getting in touch
+    with it.
 explicit: "yes"
 ---
 

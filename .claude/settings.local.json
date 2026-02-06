@@ -9,7 +9,8 @@
       "WebFetch(domain:aaronbieber.coach)",
       "WebFetch(domain:www.therosatechnique.com)",
       "WebSearch",
-      "WebFetch(domain:www.alignable.com)"
+      "WebFetch(domain:www.alignable.com)",
+      "Bash(sed:*)"
     ],
     "deny": [],
     "ask": []

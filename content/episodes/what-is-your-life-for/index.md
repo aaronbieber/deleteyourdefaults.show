@@ -1,9 +1,9 @@
 ---
 title: "What Is Your Life For?"
 date: 2025-06-04T06:26:51-04:00
-description: "We explore the concept of work life balance, the 
-  definition of success, and the foundational question of what 
-  is your life for?"
+description: >
+    We explore the concept of work life balance, the definition of success,
+    and the foundational question of what is your life for?
 explicit: "yes"
 ---
 

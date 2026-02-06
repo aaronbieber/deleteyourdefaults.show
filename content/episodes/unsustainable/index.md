@@ -1,9 +1,10 @@
 ---
 title: "Unsustainable"
 date: 2025-05-07T06:54:50-04:00
-description: "Unsustainable is just another way of saying \"losing strategy\".
-  We explore layers of unsustainability in modern life and expansive 
-  reframes for optimism."
+description: >
+    Unsustainable is just another way of saying "losing strategy". We explore
+    layers of unsustainability in modern life and expansive reframes for
+    optimism.
 explicit: "yes"
 ---
 

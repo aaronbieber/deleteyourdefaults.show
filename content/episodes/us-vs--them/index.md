@@ -1,9 +1,9 @@
 ---
 title: "Us vs. Them"
 date: 2025-04-09T06:07:56-04:00
-description: "Can we overcome our social programming to become wise? 
-  How do we engage with difference while respecting each others' 
-  humanity?"
+description: >
+    Can we overcome our social programming to become wise? How do we engage
+    with difference while respecting each others' humanity?
 explicit: "yes"
 ---
 
