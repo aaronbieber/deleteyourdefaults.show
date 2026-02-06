@@ -7,7 +7,7 @@ description: "Unsustainable is just another way of saying \"losing strategy\".
 explicit: "yes"
 ---
 
-{{< podcast "https://open.spotify.com/embed/episode/7vGHJXeh2n2Q8VB2yremhW?utm_source=generator" >}}
+{{< podcast "7vGHJXeh2n2Q8VB2yremhW" >}}
 
 Unsustainable is just another way of saying "losing strategy". We explore layers
 of unsustainability in our current modern life and expansive reframes for

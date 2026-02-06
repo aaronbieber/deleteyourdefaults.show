@@ -6,7 +6,7 @@ description: "What is the point of your life? How our trained incompetence
 explicit: "yes"
 ---
 
-{{< podcast "https://open.spotify.com/embed/episode/2ghTSDR8G4tPIxG8ygGY3u?utm_source=generator" >}}
+{{< podcast "2ghTSDR8G4tPIxG8ygGY3u" >}}
 
 What is the point of your life? How our trained incompetence serves a way of
 life that's not serving us.

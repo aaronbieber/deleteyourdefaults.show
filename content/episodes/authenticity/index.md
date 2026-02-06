@@ -7,7 +7,7 @@ description: "People are craving authenticity more and more---both expressing it
 explicit: "yes"
 ---
 
-{{< podcast "https://open.spotify.com/embed/episode/107pjvUOViNzOBv9JKA70u?utm_source=generator" >}}
+{{< podcast "107pjvUOViNzOBv9JKA70u" >}}
 
 People are craving authenticity more and more---both expressing it and being
 around others who are embodying it. We explore our own challenges to being

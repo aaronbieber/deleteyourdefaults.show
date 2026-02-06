@@ -7,7 +7,7 @@ description: "This episode explores the idea of truth, whether objective truth
 explicit: "yes"
 ---
 
-{{< podcast "https://open.spotify.com/embed/episode/3U19wjQArqxiJcoqYDGtQE?utm_source=generator" >}}
+{{< podcast "3U19wjQArqxiJcoqYDGtQE" >}}
 
 This episode explores the idea of truth, whether objective truth exists, and how
 to relate to uncertainty. We cover ground from spirituality to politics.

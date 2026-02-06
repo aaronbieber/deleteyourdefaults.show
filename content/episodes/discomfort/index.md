@@ -4,7 +4,7 @@ date: 2025-10-29T10:46:17-04:00
 description: "What if discomfort isn’t something to avoid—but an invitation into expansion, aliveness, and self-trust?"
 ---
 
-{{< podcast "https://open.spotify.com/embed/episode/2vrOb0ZrgHDoyqVvHnKJkH?utm_source=generator" >}}
+{{< podcast "2vrOb0ZrgHDoyqVvHnKJkH" >}}
 
 What if discomfort isn’t something to avoid—but an invitation into expansion,
 aliveness, and self-trust?

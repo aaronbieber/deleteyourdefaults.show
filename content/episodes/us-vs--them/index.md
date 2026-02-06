@@ -7,7 +7,7 @@ description: "Can we overcome our social programming to become wise?
 explicit: "yes"
 ---
 
-{{< podcast "https://open.spotify.com/embed/episode/46vOEQdU3rVuc3ZVmmTupx?utm_source=generator" >}}
+{{< podcast "46vOEQdU3rVuc3ZVmmTupx" >}}
 
 Us vs. Them, and can we overcome our social programming to become wise? How do
 we engage with difference while respecting each others' humanity? What do we do

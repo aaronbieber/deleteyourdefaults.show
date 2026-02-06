@@ -10,7 +10,7 @@ description: "For all that we live in a world that pretends we’re rational bei
 explicit: "yes"
 ---
 
-{{< podcast "https://open.spotify.com/embed/episode/3vczWHpXdKfpD10KbmlcfZ?utm_source=generator" >}}
+{{< podcast "3vczWHpXdKfpD10KbmlcfZ" >}}
 
 For all that we live in a world that pretends we’re rational beings
 doing rational things, feelings drive everything in our lives, or block

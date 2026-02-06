@@ -5,7 +5,7 @@ description: "If you’re ready for friendships (and a life) that can hold truth
 explicit: "yes"
 ---
 
-{{< podcast "https://open.spotify.com/embed/episode/0xE5LjAHFFZjsZuJNvYDfX?utm_source=generator" >}}
+{{< podcast "0xE5LjAHFFZjsZuJNvYDfX" >}}
 
 If you’re ready for friendships (and a life) that can hold truth, tenderness,
 and growth—this one’s for you.

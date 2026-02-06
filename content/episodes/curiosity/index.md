@@ -6,7 +6,7 @@ that softens defensiveness, loosens certainty, and reopens the doors
 your nervous system has been calling “walls.”"
 ---
 
-{{< podcast "https://open.spotify.com/embed/episode/0ctuZ5a9wzboUWwskFh2OT" >}}
+{{< podcast "0ctuZ5a9wzboUWwskFh2OT" >}}
 
 In this episode we explore curiosity as a way of being, as a practice
 that softens defensiveness, loosens certainty, and reopens the doors

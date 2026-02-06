@@ -7,7 +7,7 @@ description: "What does it mean to live fully? We explore the value of boredom,
 explicit: "yes"
 ---
 
-{{< podcast "https://open.spotify.com/embed/episode/6pwLoKXgGJe5wKi7SRooVq?utm_source=generator" >}}
+{{< podcast "6pwLoKXgGJe5wKi7SRooVq" >}}
 
 What humans are capable of is so fucking awesome. Why don't we lean into more
 of that and less efficiency and making money?

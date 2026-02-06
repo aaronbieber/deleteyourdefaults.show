@@ -6,7 +6,7 @@ description: "Let's dismantle one of our most seductive illusions: that we’re 
 explicit: yes
 ---
 
-{{< podcast "https://open.spotify.com/embed/episode/7fENb41Ki6DwcqH7jOc6n2" >}}
+{{< podcast "7fENb41Ki6DwcqH7jOc6n2" >}}
 
 Let's dismantle one of our most seductive illusions: that we’re in control, and
 that that's what makes us safe.

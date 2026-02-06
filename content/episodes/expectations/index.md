@@ -4,7 +4,7 @@ date: 2025-11-12T10:37:37-05:00
 description: "In this episode, we unpack the slippery power of **expectations**—how they can motivate, manipulate, cheer or demotivate."
 ---
 
-{{< podcast "https://open.spotify.com/embed/episode/44Y82O5xNieeOhlhh2cF4y" >}}
+{{< podcast "44Y82O5xNieeOhlhh2cF4y" >}}
 
 In this episode, we unpack the slippery power of **expectations**—how they can
 motivate, manipulate, cheer or demotivate. We tease apart expectations vs.

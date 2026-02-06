@@ -4,7 +4,7 @@ date: 2025-11-26T11:01:11-05:00
 description: "In this episode, we look under the hood of incentives: the seen and unseen forces that quietly steer our choices."
 ---
 
-{{< podcast "https://open.spotify.com/embed/episode/0gvdBp81tPoqPeFujB4Vvc" >}}
+{{< podcast "0gvdBp81tPoqPeFujB4Vvc" >}}
 
 In this episode, we look under the hood of incentives—the seen and
 unseen forces that quietly steer our choices. We explore explicit

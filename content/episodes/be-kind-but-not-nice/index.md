@@ -4,7 +4,7 @@ date: 2025-07-02T10:21:58-05:00
 description: "In this episode, we explore what it really means to be kind, the cost of being nice, what it means to be real, and what’s the deal with so much fakeness these days?"
 ---
 
-{{< podcast "https://open.spotify.com/embed/episode/67EzGGjSlffcHBPdoBoG7I" >}}
+{{< podcast "67EzGGjSlffcHBPdoBoG7I" >}}
 
 In this episode, we explore what it really means to be kind, the cost of
 being nice, what it means to be real, and what’s the deal with so much

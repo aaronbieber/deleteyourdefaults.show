@@ -7,7 +7,7 @@ description: "All humans are creative and have creative processes. We
 explicit: "yes"
 ---
 
-{{< podcast "https://open.spotify.com/embed/episode/5A0AMDUDtNML9m6Z9zpf1m?utm_source=generator" >}}
+{{< podcast "5A0AMDUDtNML9m6Z9zpf1m" >}}
 
 All humans---including you!---are creative. And we all have creative processes,
 though we aren\'t always aware of what they are.

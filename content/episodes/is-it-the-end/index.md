@@ -7,7 +7,7 @@ description: "We explore endings, beginnings, their cocreative nature,
 explicit: "yes"
 ---
 
-{{< podcast "https://open.spotify.com/embed/episode/0xP0fX2kcV9Ba6l1HA8w5I?utm_source=generator" >}}
+{{< podcast "0xP0fX2kcV9Ba6l1HA8w5I" >}}
 
 We explore endings, beginnings, their cocreative nature, and how we relate to
 them. Why is it easier to feel the pain of loss than the delight of gain?

@@ -7,7 +7,7 @@ description: "We explore the concept of work life balance, the
 explicit: "yes"
 ---
 
-{{< podcast "https://open.spotify.com/embed/episode/06PYcWLVFrYiq4BKBKgG3B?utm_source=generator" >}}
+{{< podcast "06PYcWLVFrYiq4BKBKgG3B" >}}
 
 In this episode, we explore the concept of work life balance, the definition of
 success, and the foundational question of what is your life for?

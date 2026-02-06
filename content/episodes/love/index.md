@@ -4,7 +4,7 @@ date: 2026-01-07T10:25:07-05:00
 description: "What if love isn't a feeling, but a verb---a set of actions, choices, and ways of being?"
 ---
 
-{{< podcast "https://open.spotify.com/embed/episode/3P13ARm8320gs2JYVf8hwM" >}}
+{{< podcast "3P13ARm8320gs2JYVf8hwM" >}}
 
 What if love isn't a feeling, but a verb---a set of actions, choices,
 and ways of being?

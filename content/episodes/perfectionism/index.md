@@ -4,7 +4,7 @@ date: 2025-12-10T10:27:37-05:00
 description: "In this episode, we pull apart “perfection” from multiple angles: the rigid, human version that freezes us in place, and the spacious, spiritual sense that everything is already perfect as it is."
 ---
 
-{{< podcast "https://open.spotify.com/embed/episode/2lTU9rHPJqkSiJpatA3CUr" >}}
+{{< podcast "2lTU9rHPJqkSiJpatA3CUr" >}}
 
 In this episode, we pull apart “perfection” from multiple angles: the
 rigid, human version that freezes us in place, and the spacious,
