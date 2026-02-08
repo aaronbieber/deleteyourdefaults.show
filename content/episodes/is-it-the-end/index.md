@@ -1,5 +1,5 @@
 ---
-title: "Is It the end?"
+title: "Is it the end?"
 date: 2025-05-21T09:14:35-04:00
 description: >
     We explore endings, beginnings, their cocreative nature, and how we relate

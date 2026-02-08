@@ -1,5 +1,5 @@
 ---
-title: "Be Kind Not Nice"
+title: "Be kind not nice"
 date: 2025-07-02T10:21:58-05:00
 description: >
     In this episode, we explore what it really means to be kind, the cost of

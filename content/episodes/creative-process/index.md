@@ -1,5 +1,5 @@
 ---
-title: "Creative Process"
+title: "Creative process"
 date: 2025-06-19T05:58:53-04:00
 description: >
     All humans are creative and have creative processes. We explore our own

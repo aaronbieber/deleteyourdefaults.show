@@ -1,5 +1,5 @@
 ---
-title: "Work with Us"
+title: "Work with us"
 description: "The conversations don't have to end with the episode. Work one-on-one with Aaron or Rosa to delete your own defaults."
 ---
 

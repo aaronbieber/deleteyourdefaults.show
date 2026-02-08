@@ -1,5 +1,5 @@
 ---
-title: "Trained Incompetence"
+title: "Trained incompetence"
 date: 2025-03-26T06:00:40-04:00
 description: >
     What is the point of your life? How our trained incompetence serves a way

@@ -1,5 +1,5 @@
 ---
-title: "How to Appreciate Your Life"
+title: "How to appreciate your life"
 date: 2025-07-17T13:30:31-04:00
 description: >
     What does it mean to live fully? We explore the value of boredom, getting
