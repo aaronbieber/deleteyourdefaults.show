@@ -24,3 +24,5 @@ This episode offers practices, reflections, and a compassionate reorientation
 toward uncertainty, reminding you that you don't need perfection to trust
 yourself… and that sometimes, the very cracks you're trying to hide are how
 connection gets in.
+
+{{< transcript "https://docs.google.com/document/d/1MfXKMXPFLWEvg0gcGZ8uBFGeje6OLsunK4IarjWE8FI/edit?usp=sharing" >}}
