@@ -1,6 +1,6 @@
 ---
 title: "The other side of discomfort"
-date: 2026-02-09T17:20:56-05:00
+date: 2026-02-09T10:43:42-05:00
 ---
 
 This is a companion article for our [conversation about discomfort][d], which you may
