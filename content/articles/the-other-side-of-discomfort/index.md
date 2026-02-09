@@ -8,6 +8,8 @@ also like to listen to.
 
 [d]: {{< ref "discomfort" >}}
 
+![Personal growth ahead](personal-growth-ahead.png)
+
 Everything we want lies on the other side of discomfort. Here's the problem:
 we're wired from birth to stay on this side, the comfortable side. Unless we can
 learn to cross over, we'll never get what we want.
