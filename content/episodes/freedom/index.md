@@ -37,4 +37,4 @@ touchpoints from this conversation:
 - **Tommy Caldwell** -- Mentioned in the context of resilience, risk, and the
   relationship between failure and growth.
 
-{{< transcript "https://docs.google.com/document/d/1WgUHo_tYVzKmhhHhfsYRCx_vW-80r_GMvbUfygYGZTI/edit?usp=sharing" >}}
+{{< transcript "https://docs.google.com/document/d/1S3sUgjqxr7kEuZKXln12SsWurlNV9N7uC7pUSB6jV-4/edit?usp=sharing" >}}
