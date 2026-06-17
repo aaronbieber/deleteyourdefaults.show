@@ -2,7 +2,9 @@
 title: "Rules"
 date: 2026-05-28T06:26:29-04:00
 description: >
-    Brief episode description goes here.
+    Wander with us through speeding in Boston, jaywalking, airplane seat swaps,
+    recycling myths, corporate theft, public transit etiquette, and the 
+    spiritual practice of becoming a little more unruly.
 explicit: "yes"
 ---
 
