@@ -10,7 +10,7 @@
       {{ .Content }}
 
       <div class="episode-grid">
-        {{ range .Pages.ByDate.Reverse }}
+        {{ range (.Paginate .Pages.ByDate.Reverse).Pages }}
           <a href="{{ .RelPermalink }}" class="episode-card">
             <div class="episode-card__accent"></div>
             <div class="episode-card__body">

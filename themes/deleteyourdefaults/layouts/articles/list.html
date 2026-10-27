@@ -9,7 +9,7 @@
     <div class="container">
       {{ .Content }}
 
-      {{ $posts := .Pages.ByDate.Reverse }}
+      {{ $posts := (.Paginate .Pages.ByDate.Reverse).Pages }}
       {{ if $posts }}
         <div class="post-list">
           {{ range $posts }}
